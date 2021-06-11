@@ -1,0 +1,29 @@
+
+[ 
+    {
+      "nombres": "Jimena",
+      "apellido": "Lezcano",
+      "nombreUser": "jimeelezcano",
+      "email": "jimenalezcano@gmail.com",
+      "barrio": "Palermo",
+      "pago": "Credito"
+    },
+     
+    {
+        "nombres": "Micaela",
+        "apellido": "Perez",
+        "nombreUser": "micaelaperez",
+        "email": "micaperez@gmail.com",
+        "barrio": "Recoleta",
+        "pago": "Debito"
+    },
+
+    {
+          "nombres": "Evelyn",
+          "apellido": "Ramirez",
+          "nombreUser": "evelynramirez",
+          "email": "evelynramirez@gmail.com",
+          "barrio": "Almagro",
+          "pago": "Mercado Pago"
+    }
+]
