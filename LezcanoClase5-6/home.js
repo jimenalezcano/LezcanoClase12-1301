@@ -49,8 +49,8 @@ $(document).ready(function () {
         $.each(data, function (index, element) {
             let lista = `<li id='${index}-id'>" ${element.nombre} "</li>
                          <li id='${index}-title'>" ${element.apellido} "</li>
-                         <li id='${index}-completed'>" ${element.nombreUser} "</li>
-                         <li>----------------</li>`;
+                         <li id='${index}-completed'>" ${element.nombreUser} "</li>`;
+                   
       
             items.push(lista);
         });
