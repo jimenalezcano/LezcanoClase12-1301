@@ -1,0 +1,32 @@
+[
+    {
+        "nombres": "Jimena",
+        "apellido": "Lezcano",
+        "dni" : "4322323",
+        "nombreUser": "jimeelezcano",
+        "contrasena" :"123321",
+        "email": "jimenalezcano@gmail.com",
+        "barrio": "Palermo",
+        "pago": "Credito"
+    },
+    {
+        "nombres": "Micaela",
+        "apellido": "Perez",
+        "dni": "4322323",
+        "nombreUser": "micaelaperez",
+        "contrasena": "123321",
+        "email": "micaperez@gmail.com",
+        "barrio": "Recoleta",
+        "pago": "Debito"
+    },
+    {
+        "nombres": "Evelyn",
+        "apellido": "Ramirez",
+        "dni": "4322323",
+        "nombreUser": "evelynramirez",
+        "contrasena": "123321",
+        "email": "evelynramirez@gmail.com",
+        "barrio": "Almagro",
+        "pago": "Mercado Pago"
+    }
+]

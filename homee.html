@@ -1,0 +1,139 @@
+<!-- Este va a ser el html definitivo p-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>FarmaWeb</title>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+              integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+       <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       <link rel="styllsheet" href="home.css" />
+    </head>
+
+  <body>
+
+    <!-- Sidebar (hidden by default) -->
+    <nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left"
+        style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+        <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button">Inicio</a>
+        <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">Productos</a>
+        
+    </nav>
+
+    <!-- Top menu -->
+    <div class="w3-top">
+        <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+            <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+            <a href="./User/form.html" class="w3-button w3-padding-16 w3-left"> Registrarse</a>
+            <div class="w3-center w3-padding-16">FarmaWeb</div>
+        </div>
+    </div>
+
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+        <!-- First Photo Grid-->
+        <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+            <div class="w3-quarter">
+                <img src="imagenes/pioneer.jpg"  style="width:100%">
+                <h3>Maybelline Matte Ink 20 Pioneer </h3>
+                <p>$1.000</p>
+                  <button class="btn btn-primary" class="btn-cargar-carrito" data-id="Mayb01">Agregar al carrito</button>
+                    
+            </div>
+            <div class="w3-quarter">
+                <img src="imagenes/pink.jpg" style="width:100%">
+                <h3>Maybelline Matte Ink Pink</h3>
+                <p>$1.000</p>
+                <button class="btn btn-primary" class="btn-cargar-carrito" data-id="Mayb02">Agregar al carrito</button>
+            </div>
+            <div class="w3-quarter">
+                <img src="imagenes/voyager.jpg" style="width:100%">
+                <h3>Maybelline Matte Ink Voyager</h3>
+                <p>$1.000</p>
+                <button class="btn btn-primary" class="btn-cargar-carrito" data-id="Mayb03">Agregar al carrito</button>
+            
+                 
+            </div>
+            <div class="w3-quarter">
+                <img src="imagenes/mascara01.jpg"  style="width:110%">
+                <h3>Mascara Maybelline</h3>
+                <p>$900</p>
+                <button class="btn btn-primary" class="btn-cargar-carrito" data-id="masc01">Agregar al carrito</button>
+            </div>
+        </div>
+          
+        <br>
+        <br>
+
+
+        <!-- Second Photo Grid-->
+        <div class="w3-row-padding w3-padding-16 w3-center">
+            <div class="w3-quarter">
+                <img src="imagenes/mascara02.jpg" al style="width:100%">
+                <h3>Mascara Maybelline</h3>
+                <p>$1.300</p>
+                <button class="btn btn-primary" class="btn-cargar-carrito" data-id="masc02">Agregar al carrito</button>
+                   
+            </div>
+            <div class="w3-quarter">
+                <img src="imagenes/mascara03.jpg"  style="width:100%">
+                <h3>Mascara Maybelline</h3>
+                <p>$1.350</p>
+                <button class="btn btn-primary" class="btn-cargar-carrito" data-id="masc03">Agregar al carrito</button>
+                    
+            </div>
+            <div class="w3-quarter">
+                <img src="imagenes/ruborRim01.jpg" al style="width:100%">
+                <h3>Rubor Rimmel London </h3>
+                <p>$1.560</p>
+                <button class="btn btn-primary" class="btn-cargar-carrito" data-id="rubor01">Agregar al carrito</button>
+                  
+            </div>
+            <div class="w3-quarter">
+                <img src="imagenes/ruborRim02.jpg" alt style="width:100%">
+                <h3>Rubor Rimmel London</h3>
+                <p>$500</p>
+            <button class="btn btn-primary" class="btn-cargar-carrito" data-id="rubor02">Agregar al carrito</button>
+                    
+            </div>
+        </div>
+
+
+        <br>
+        <br>
+        <br>
+        <!-- Footer -->
+        <footer class="w3-padding-32 w3-black w3-center w3-margin-top" id="footer">
+            <h5>Encontranos en:</h5>
+            <div class="w3-xlarge w3-padding-16">
+                <i class="fa fa-facebook-official w3-hover-opacity"></i>
+                <i class="fa fa-instagram w3-hover-opacity"></i>
+                <i class="fa fa-snapchat w3-hover-opacity"></i>
+                <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+                <i class="fa fa-twitter w3-hover-opacity"></i>
+                <i class="fa fa-linkedin w3-hover-opacity"></i>
+            </div>
+        </footer>
+    
+
+
+        
+            </div>
+        </footer>
+
+        <!-- End page content -->
+    </div>
+       <script src="home.js"></script>
+       <script src="carrito.js"></script>
+       <script src="/User/products.js"></script>
+       <script src="./User/carrito.js"></script>
+       
+  </body>
+
+</html>
